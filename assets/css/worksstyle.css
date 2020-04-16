@@ -1,0 +1,70 @@
+.header-nav {
+    background-color: white;
+    color: black;
+    border-bottom: 3px solid black;
+    box-shadow: 2px black;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+.navtab {
+    margin-left: 3%;
+    color: black;
+    align-self: center;
+}
+
+.header-main {
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    color: black;
+    font-size: 2em;
+    letter-spacing: 0.01em;
+    text-shadow: -1px 0 silver, 0 1px silver, 1px 0 silver, 0 -1px silver;
+}
+
+.header-main:hover {
+    color: black;
+}
+
+#journal-jumbo {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article-box {
+    height: 200px;
+    border: 3px solid black;
+    width: 800px;
+    margin: 2%;
+    display: flex;
+    padding-left: 3%;
+    border-radius: 20px;
+    box-shadow: 4px 3px 4px black;
+}
+
+.logo {
+    align-self: center;
+    width: 23%;
+    height: 40%;
+    margin-right: 3%;
+}
+
+.article-headline {
+    display: flex;
+    align-self: center;
+}
+
+.headline {
+    font-size: 1.5em;
+    font-family: 'Bitter', serif;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
