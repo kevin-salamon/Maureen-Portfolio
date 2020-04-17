@@ -1,7 +1,7 @@
 .header-nav {
     background-color: white;
     color: black;
-    border-bottom: 3px solid black;
+    border-bottom: 1px solid silver;
     box-shadow: 2px black;
     width: 100%;
     display: flex;
@@ -39,21 +39,24 @@
 }
 
 .article-box {
-    height: 200px;
+    height: 150px;
     border: 3px solid black;
-    width: 800px;
-    margin: 2%;
+    width: 620px;
+    margin: 1%;
     display: flex;
-    padding-left: 3%;
+    padding-left: 2%;
     border-radius: 20px;
     box-shadow: 4px 3px 4px black;
 }
 
 .logo {
     align-self: center;
-    width: 23%;
-    height: 40%;
+    width: 35%;
+    height: 65%;
     margin-right: 3%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2%;
 }
 
 .article-headline {
@@ -67,4 +70,10 @@
     color: black;
     text-align: center;
     font-weight: bolder;
+    padding: 2%;
+}
+
+.headline:hover {
+    text-decoration: none;
+    color: black;
 }
