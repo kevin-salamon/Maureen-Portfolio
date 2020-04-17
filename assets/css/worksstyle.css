@@ -38,6 +38,11 @@
     justify-content: center;
 }
 
+.external-link {
+    display: flex;
+    align-items: center;
+}
+
 .article-box {
     height: 150px;
     border: 3px solid black;
@@ -45,32 +50,34 @@
     margin: 1%;
     display: flex;
     padding-left: 2%;
-    border-radius: 20px;
     box-shadow: 4px 3px 4px black;
 }
 
 .logo {
     align-self: center;
-    width: 35%;
+    width: 25%;
     height: 65%;
     margin-right: 3%;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 2%;
 }
 
 .article-headline {
+    width: 60%;
     display: flex;
     align-self: center;
+    justify-content: center;
 }
 
 .headline {
-    font-size: 1.5em;
-    font-family: 'Bitter', serif;
+    font-size: 1.4em;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: black;
     text-align: center;
     font-weight: bolder;
     padding: 2%;
+    align-self: center;
 }
 
 .headline:hover {
