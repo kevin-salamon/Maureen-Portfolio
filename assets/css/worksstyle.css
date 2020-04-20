@@ -27,6 +27,10 @@
     color: black;
 }
 
+.image-holder {
+    z-index: 1;
+}
+
 #journal-jumbo {
     width: 100%;
 }
@@ -36,11 +40,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: navy;
 }
 
-.external-link {
-    display: flex;
-    align-items: center;
+.sidebar-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: white;
+    z-index: 0;
+    width: 5%;
+    height: 100%;
+
 }
 
 .article-box {
@@ -51,6 +63,7 @@
     display: flex;
     padding-left: 2%;
     box-shadow: 4px 3px 4px black;
+    background-color: white
 }
 
 .logo {
