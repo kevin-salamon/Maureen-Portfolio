@@ -1,9 +1,16 @@
 body {
-    background: url("../images/wideprof.jpg") no-repeat center center fixed;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+      ), url("../images/wideprof.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.background {
+    width: 100%;
 }
 
 .header-nav {
@@ -43,15 +50,13 @@ body {
 }
 
 .text-area {
-    display: flex;
-    width: 1100px;
-    padding: 5%;
-    border: 1px solid black;
+    width: 55%;
+    padding: 1%;
+    margin: 6%;
     align-self: center;
     justify-content: center;
-    flex-direction: column;
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 10px;
 }
 
 .intro-text {
@@ -61,16 +66,27 @@ body {
 }
 
 .intro-title {
-
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3em;
 }
 
 .intro-description {
-
+    font-family: 'Merienda', cursive;
+    font-size: 0.7em;
+    border-bottom: 2px solid white;
 }
 
 .description-text {
     height: 80%;
-    font-size: 1.5rem;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+}
+
+.pop-out {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
 }
 
 .image-holder {
@@ -104,6 +120,23 @@ body {
         font-size: 1em;
         letter-spacing: 0.05em;
     }
+
+    .text-area {
+        border: 5px solid white;
+        padding: 5%;
+    }
+
+    .intro-description {
+        font-size: 0.6em;
+    }
+
+    .description-text {
+        font-size: 1.3em;
+     }
+
+     .pop-out {
+        border-bottom: 2px solid white;
+    }
 }
 
 @media screen and (max-width: 757px) {
@@ -113,12 +146,23 @@ body {
 }
 
 @media screen and (max-width: 1023px) {
-    .main-body {
-        flex-wrap: wrap-reverse;
-    }
-
     .intro-text {
         text-align: center;
+    }
+
+    .text-area {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .background {
+        display: flex;
+        justify-content: center;
+    }
+
+    .description-text {
+       text-align: center;
+       margin-top: 40px;
     }
 }
 
