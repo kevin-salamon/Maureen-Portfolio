@@ -1,3 +1,11 @@
+.wrapper {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.40),
+        rgba(0, 0, 0, 0.40)
+      ), url("../images/textwall.jpg");
+    background-size: 100% 100%;
+}
+
 .header-nav {
     box-shadow: 2px black;
     width: 100%;
@@ -34,12 +42,33 @@
     width: 100%;
 }
 
+.intro-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 2%;
+}
+
+.intro-area-text {
+    padding: 1%;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Lusitana', serif;
+    color: black;
+    font-weight: bold;
+    border: 2px solid rgb(49, 49, 49);
+    border-radius: 10px;
+    background-color: white;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(49, 49, 49);
+    background-color: transparent;
 }
 
 .sidebar-left {
@@ -57,7 +86,8 @@
 .article-box {
     height: 150px;
     border: 3px solid black;
-    width: 620px;
+    width: 500px;
+    border-radius: 5px;
     margin: 1%;
     display: flex;
     padding-left: 2%;
