@@ -11,27 +11,36 @@
     width: 100%;
     display: flex;
     padding: 1.5%;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(36, 31, 31);
 }
 
 .navtab {
     margin-left: 5%;
     color: white;
     align-self: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em;
+    font-family: 'Lusitana', serif;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+}
+
+.navtab:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .header-main {
-    font-family: 'Cinzel', serif;
     align-self: center;
     color: white;
-    font-size: 2em;
-    letter-spacing: 0.01em;
 }
 
-.header-main:hover {
+.header-button {
+    font-family: 'Lusitana', serif;
+    letter-spacing: 0.0625em;
+    background-color: transparent;
     color: white;
+    border: transparent;
+    padding: 5px;
+    font-size: 2.1em;
 }
 
 .image-holder {
@@ -132,9 +141,9 @@
         justify-content: center;
         flex-direction: column;
         padding-right: 10%;
-      }
+    }
 
-    .header-main {
+    .header-button {
         font-size: 1.5em;
     }
 
@@ -142,5 +151,11 @@
         margin-left: 0%;
         font-size: 1em;
         letter-spacing: 0.05em;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    .header-button {
+        border: transparent;
     }
 }

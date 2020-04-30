@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(
-        rgba(0, 0, 0, 0.45),
-        rgba(0, 0, 0, 0.45)
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
       ), url("../images/wideprof.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,35 +14,40 @@ body {
 }
 
 .header-nav {
-    border-bottom: 1px solid silver;
     box-shadow: 2px black;
     width: 100%;
     display: flex;
     padding: 1.5%;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(36, 31, 31);
 }
 
 .navtab {
     margin-left: 5%;
     color: white;
     align-self: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em;
+    font-family: 'Lusitana', serif;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+}
+
+.navtab:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .header-main {
-    font-family: 'Cinzel', serif;
     align-self: center;
     color: white;
-    font-size: 2em;
-    letter-spacing: 0.01em;
 }
 
 .header-button {
+    font-family: 'Lusitana', serif;
+    letter-spacing: 0.0625em;
     background-color: transparent;
     color: white;
-    border-radius: 3px;
+    border: transparent;
     padding: 5px;
+    font-size: 2.1em;
 }
 
 .header-main:hover {
@@ -68,6 +73,7 @@ body {
 .intro-title {
     font-family: 'Playfair Display', serif;
     font-size: 2.3em;
+    letter-spacing: 0.025em;
 }
 
 .intro-description {
@@ -83,10 +89,14 @@ body {
 }
 
 .pop-out {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lusitana', serif;
     font-size: 1.5em;
     font-weight: bold;
     letter-spacing: 0.05em;
+}
+
+.pop-out:hover {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .image-holder {
@@ -111,7 +121,7 @@ body {
         padding-right: 10%;
       }
 
-    .header-main {
+      .header-button {
         font-size: 1.5em;
     }
 

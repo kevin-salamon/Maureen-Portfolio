@@ -1,0 +1,64 @@
+.header-nav {
+    box-shadow: 2px black;
+    width: 100%;
+    display: flex;
+    padding: 1.5%;
+    background-color: rgb(36, 31, 31);
+}
+
+.navtab {
+    margin-left: 5%;
+    color: white;
+    align-self: center;
+    font-family: 'Lusitana', serif;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+}
+
+.navtab:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.header-main {
+    align-self: center;
+    color: white;
+}
+
+.header-button {
+    font-family: 'Lusitana', serif;
+    letter-spacing: 0.0625em;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    padding: 5px;
+    font-size: 2.1em;
+}
+
+.header-main:hover {
+    color: white;
+}
+
+@media screen and (max-width: 520px) {
+    .header-nav {
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 10%;
+      }
+
+      .header-button {
+        font-size: 1.5em;
+    }
+
+    .navtab {
+        margin-left: 0%;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    .header-button {
+        border: transparent;
+    }
+}
