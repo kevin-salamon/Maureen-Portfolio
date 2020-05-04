@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(
-        rgba(0, 0, 0, 0.55),
-        rgba(0, 0, 0, 0.55)
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
       ), url("../images/wideprof.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
