@@ -1,8 +1,5 @@
 .wrapper {
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.40),
-        rgba(0, 0, 0, 0.40)
-      ), url("../images/textwall.jpg");
+    background: white;
     background-size: 100% 100%;
 }
 
@@ -43,35 +40,6 @@
     font-size: 2.1em;
 }
 
-.image-holder {
-    z-index: 1;
-}
-
-#journal-jumbo {
-    width: 100%;
-}
-
-.intro-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    padding: 2%;
-}
-
-.intro-area-text {
-    padding: 1%;
-    font-size: 1.5em;
-    text-align: center;
-    font-family: 'Bad Script', cursive;
-    font-family: 'Lusitana', serif;
-    color: black;
-    font-weight: bold;
-    border: 2px solid rgb(49, 49, 49);
-    border-radius: 10px;
-    background-color: white;
-}
-
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -80,60 +48,24 @@
     background-color: transparent;
 }
 
-.sidebar-left {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color: white;
-    z-index: 0;
-    width: 5%;
-    height: 100%;
-
-}
-
-.article-box {
-    height: 150px;
-    border: 3px solid black;
-    width: 500px;
-    border-radius: 5px;
+.whole-card {
     margin: 1%;
     display: flex;
-    padding-left: 2%;
-    box-shadow: 4px 3px 4px black;
-    background-color: white
 }
 
-.logo {
-    align-self: center;
-    width: 25%;
-    height: 65%;
-    margin-right: 3%;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 2%;
+.card-image-set {
+    padding: 10% 5%;
 }
 
-.article-headline {
-    width: 60%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
+.card-body-section {
+    background-color: whitesmoke;
 }
 
-.headline {
-    font-size: 1.4em;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: black;
-    text-align: center;
-    font-weight: bolder;
-    padding: 2%;
-    align-self: center;
-}
-
-.headline:hover {
-    text-decoration: none;
-    color: black;
+.card-headline {
+    font-family: 'Lusitana', serif; 
+    color: black; 
+    font-weight: 550; 
+    font-size: 1.4em
 }
 
 @media screen and (max-width: 520px) {
