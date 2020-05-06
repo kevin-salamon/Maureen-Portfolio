@@ -1,5 +1,5 @@
 .body {
-    background-color: whitesmoke;
+    background-color: white;
     height: 100%;
 }
 
@@ -47,15 +47,17 @@
 .flex-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 98%;
     background-size: cover;
-    padding: 3%;
+    padding: 2%;
     background-color: white;
+    margin: 1%;
 }
 
 .image-slot {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 50%;
     padding: 2%;
     background-color: silver;
@@ -63,7 +65,7 @@
 }
 
 .headshot {
-    border: 2px solid whitesmoke;
+    border: 2px solid black;
     border-radius: 5px;
     width: auto;
     height: 600px;
@@ -106,5 +108,49 @@
 @media screen and (max-width: 757px) {
     .header-button {
         border: transparent;
+    }
+}
+
+@media screen and (max-width: 1635px) and (min-width: 1280px) {
+    .text-slot p {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1075px) {
+    .text-slot p {
+        font-size: 1.0em;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .image-slot {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1074px) {
+    .flex-container {
+        flex-wrap: wrap;
+    }
+
+    .image-slot {
+        width: 100%;
+        background-color: white;
+    }
+
+    .text-slot {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .headshot {
+        height: 400px;
+        width: 265px;
+    }
+
+    .image-slot {
+        background-color: silver;
     }
 }
