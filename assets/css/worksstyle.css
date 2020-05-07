@@ -40,16 +40,58 @@
     font-size: 2.1em;
 }
 
-.flex-container {
+.top-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border: 2px solid silver;
+    height: 500px;
+    margin: 1%;
+}
+
+.left-slot p {
+    font-size: 3em;
+    font-family: 'Lusitana', serif;
+    padding: 10%;
+}
+
+.right-slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border: 2px solid silver;
+    height: 500px;
+    margin: 1%;
+}
+
+.right-slot p {
+    font-size: 1.5em;
+    font-family: 'Lusitana', serif;
+    padding: 10%;
+}
+
+.bottom-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     background-color: transparent;
+    border: 1px solid silver;
+    background-color: silver;
 }
 
 .whole-card {
-    margin: 1%;
+    margin: 3px;
     display: flex;
 }
 
@@ -64,6 +106,7 @@
 }
 
 .card-body-section {
+    border-top: 1px solid silver;
     background-color: whitesmoke;
     display: flex;
     align-items: center;
@@ -72,8 +115,8 @@
 .card-headline {
     font-family: 'Lusitana', serif; 
     color: black; 
-    font-weight: 550; 
-    font-size: 1.4em
+    font-weight: 600; 
+    font-size: 1.4em;
 }
 
 @media screen and (max-width: 520px) {
