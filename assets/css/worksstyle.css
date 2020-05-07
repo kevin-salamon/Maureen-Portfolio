@@ -53,12 +53,20 @@
     display: flex;
 }
 
+.whole-card:hover {
+    text-decoration: none;
+}
+
 .card-image-set {
     padding: 10% 5%;
+    width: 275px;
+    height: 175px;
 }
 
 .card-body-section {
     background-color: whitesmoke;
+    display: flex;
+    align-items: center;
 }
 
 .card-headline {
