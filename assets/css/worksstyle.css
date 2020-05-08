@@ -8,7 +8,7 @@
     width: 100%;
     display: flex;
     padding: 1.5%;
-    background-color: rgb(36, 31, 31);
+    background-color: #3A66A7;
 }
 
 .navtab {
@@ -46,13 +46,13 @@
     flex-direction: row;
 }
 
-.left-slot {
+.left-slot, .right-slot {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 100%;
-    border: 2px solid silver;
+    border: 2px solid lavender;
     height: 500px;
     margin: 1%;
 }
@@ -61,17 +61,6 @@
     font-size: 3em;
     font-family: 'Lusitana', serif;
     padding: 10%;
-}
-
-.right-slot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    border: 2px solid silver;
-    height: 500px;
-    margin: 1%;
 }
 
 .right-slot p {
@@ -87,12 +76,13 @@
     justify-content: center;
     background-color: transparent;
     border: 1px solid silver;
-    background-color: silver;
+    background-color: lavender;
 }
 
 .whole-card {
-    margin: 3px;
+    margin: 10px;
     display: flex;
+    border: 1px solid black;
 }
 
 .whole-card:hover {
@@ -106,15 +96,16 @@
 }
 
 .card-body-section {
-    border-top: 1px solid silver;
-    background-color: whitesmoke;
+    border-top: 1px solid lavender;
+    background-color: #3A66A7;
     display: flex;
     align-items: center;
 }
 
 .card-headline {
     font-family: 'Lusitana', serif; 
-    color: black; 
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    color: white; 
     font-weight: 600; 
     font-size: 1.4em;
 }
