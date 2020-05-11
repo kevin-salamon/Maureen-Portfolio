@@ -7,7 +7,6 @@
     box-shadow: 2px black;
     width: 100%;
     display: flex;
-    padding: 1.5%;
     background-color: #1D3557;
     border-bottom: 2px solid #457B9D;
 }
@@ -18,7 +17,7 @@
     align-self: center;
     font-family: 'Lusitana', serif;
     font-size: 1.3em;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
 }
 
 .navtab:hover {
@@ -39,32 +38,6 @@
     border: transparent;
     padding: 5px;
     font-size: 2.1em;
-}
-
-.top-container {
-    margin: 3% 0%;
-    padding: 1%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    border-top: 2px solid #457B9D;
-    border-bottom: 2px solid #457B9D;
-}
-
-.top-container h1 {
-    font-family: 'Lusitana', serif;
-    font-size: 2em;
-}
-
-.top-container p {
-    font-family: 'Lusitana', serif;
-    text-align: center;
-    font-size: 1.3em;
-    padding: 0% 20%;
-
 }
 
 .bottom-container {
@@ -95,7 +68,7 @@
 
 .card-body-section {
     border-top: 1px solid lavender;
-    background-color: #909CC2;
+    background-color: rgb(202, 208, 228);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,10 +76,10 @@
 }
 
 .card-headline {
-    font-family: 'Dhurjati', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     color: black; 
     font-weight: 600; 
-    font-size: 1.6em;
+    font-size: 1.3em;
     letter-spacing: 0.05em;
 }
 
