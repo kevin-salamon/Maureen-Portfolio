@@ -100,9 +100,14 @@ body {
     opacity: 0.7;
 }
 
-.fa-facebook, .fa-linkedin {
+.fa-facebook {
     background: #3B5998;
     color: white;
+}
+
+.fa-linkedin {
+    background: #586F7C;
+    color: white; 
 }
 
 .fa-twitter {
@@ -202,6 +207,12 @@ body {
     .description-text {
        text-align: center;
        margin-top: 40px;
+    }
+
+    .icon-holder {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
