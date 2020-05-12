@@ -14,11 +14,11 @@ body {
 }
 
 .header-nav {
-    box-shadow: 2px black;
     width: 100%;
     display: flex;
     padding: 1.5%;
-    background-color: rgb(36, 31, 31);
+    background-color: #2D0406;
+    border-bottom: 1px solid #44151E;
 }
 
 .navtab {

@@ -7,8 +7,8 @@
     box-shadow: 2px black;
     width: 100%;
     display: flex;
-    background-color: #1D3557;
-    border-bottom: 2px solid #457B9D;
+    padding: 1.5%;
+    background-color: #2D0406;
 }
 
 .navtab {
