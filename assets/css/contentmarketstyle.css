@@ -46,6 +46,7 @@
     justify-content: center;
     text-align: center;
     transition: all 0.5s ease;
+    margin: 10px 0px;
 }
 
 .image-holder:hover {
@@ -68,11 +69,15 @@
 
 .img1 {
     background: url("../images/mskcc.png") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .img1:hover {
     background: #57bcff;
-    color: white
+    color: white;
 }
 
 .img2 {
@@ -80,8 +85,101 @@
 }
 
 .img2:hover {
-    background: #2D0406;
-    color: white
+    background: rgb(36, 36, 36);
+    color: white;
+}
+
+.img3 {
+    background: url("../images/hacktest.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 5px solid lightskyblue;
+}
+
+.img3:hover {
+    background: rgb(10, 10, 131);
+    color: white;
+}
+
+.img4 {
+    background: url("../images/mssociety.png") center;
+    border: 5px solid rgb(255, 136, 0);
+}
+
+.img4:hover {
+    background: rgb(255, 136, 0);
+    color: white;
+}
+
+.img5 {
+    background: url("../images/viver.png") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img5:hover {
+    background: rgb(65, 196, 65);
+    color: white;
+}
+
+.img6 {
+    background: url("../images/aps.png") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img6:hover {
+    background: rgb(255, 0, 128);
+    color: white;
+}
+
+.img7 {
+    background: url("../images/cornell.png") center;
+    border: 5px solid rgb(172, 0, 0);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img7:hover {
+    background: rgb(172, 0, 0);
+    color: white;
+}
+
+.img8 {
+    background: url("../images/northwell.png") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 5px solid rgb(161, 104, 161);
+}
+
+.img8:hover {
+    border: none;
+    background: rgb(161, 104, 161);
+    color: white;
+}
+
+.img9 {
+    background: url("../images/dallasnews.png") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 5px solid rgb(36, 36, 36);
+}
+
+.img9:hover {
+    background: ghostwhite;
+    color: rgb(36, 36, 36);
 }
 
 @media screen and (max-width: 520px) {
