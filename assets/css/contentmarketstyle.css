@@ -57,11 +57,12 @@
     font-size: 1.8em;
     font-weight: 600;
     margin: 1%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.05em;
 }
 
 .title {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 2%;
     font-weight: 500;
     font-family: 'Lusitana', serif;
@@ -180,6 +181,48 @@
 .img9:hover {
     background: ghostwhite;
     color: rgb(36, 36, 36);
+}
+
+.img10 {
+    background: url("../images/hhmi.png") center no-repeat;
+    border: 5px solid rgb(27, 145, 16);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img10:hover {
+    background: rgb(27, 145, 16);
+    color: white;
+}
+
+.img11 {
+    background: url("../images/amta.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 5px solid rgb(206, 36, 13);
+}
+
+.img11:hover {
+    border: none;
+    background: rgb(206, 36, 13);
+    color: white;
+}
+
+.img12 {
+    background: url("../images/inova.png") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img12:hover {
+    background: rgb(35, 48, 124);
+    color: white
 }
 
 @media screen and (max-width: 520px) {
