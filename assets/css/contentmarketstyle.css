@@ -49,10 +49,6 @@
     margin: 10px 0px;
 }
 
-.image-holder:hover {
-    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-}
-
 .client {
     font-size: 1.8em;
     font-weight: 600;
@@ -223,6 +219,111 @@
 .img12:hover {
     background: rgb(35, 48, 124);
     color: white
+}
+
+@media screen and (max-width: 425px) {
+    .img1 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.70),
+            rgba(0, 0, 0, 0.70)
+          ), url("../images/mskcc.png") center;
+        color: white;
+    }
+
+    .img2 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ), url("../images/judes.png") center;
+        color: white;
+    }
+
+    .img3 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)
+          ), url("../images/hacktest.png") center;
+        color: white;
+        border: none;
+    }
+
+    .img4 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ), url("../images/mssociety.png") center;
+        color: white;
+        border: none;
+    }
+
+    .img5 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)
+          ), url("../images/viver.png") center;
+        color: white;
+    }
+
+    .img6 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ), url("../images/aps.png") center;
+        color: white;
+    }
+
+    .img7 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ), url("../images/cornell.png") center;
+        color: white;
+        border: none;
+    }
+
+    .img8 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ), url("../images/northwell.png") center;
+        color: white;
+        border: none;
+    }
+
+    .img9 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.50),
+            rgba(0, 0, 0, 0.50)
+          ), url("../images/dallasnews.png") center;
+        color: white;
+        border: none;
+    }
+
+    .img10 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ), url("../images/hhmi.png") center;
+        color: white;
+        border: none;
+    }
+
+    .img11 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ), url("../images/amta.png") center;
+        color: white;
+        border: none;
+    }
+
+    .img12 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ), url("../images/inova.png") center;
+        color: white;
+    }
 }
 
 @media screen and (max-width: 520px) {
