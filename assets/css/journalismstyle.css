@@ -76,7 +76,7 @@
 }
 
 .img1 {
-    background: url("../images/mskcc.png") center;
+    background: url("../images/genome.png") center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -84,45 +84,47 @@
 }
 
 .img1:hover {
-    background: #57bcff;
+    background: #001625;
     color: white;
 }
 
 .img2 {
-    background: url("../images/judes.png") center;
-}
-
-.img2:hover {
-    background: rgb(36, 36, 36);
-    color: white;
-}
-
-.img3 {
-    background: url("../images/hacktest.png");
+    background: url("../images/cnn.png") center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    border: 5px solid lightskyblue;
+}
+
+.img2:hover {
+    background: rgb(190, 9, 9);
+    color: white;
+}
+
+.img3 {
+    background: url("../images/atlantic.png") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .img3:hover {
-    background: rgb(10, 10, 131);
+    background: rgb(36, 36, 36);
     color: white;
 }
 
 .img4 {
-    background: url("../images/mssociety.png") center;
-    border: 5px solid rgb(255, 136, 0);
+    background: url("../images/webmd.png") center;
 }
 
 .img4:hover {
-    background: rgb(255, 136, 0);
+    background: rgb(25, 122, 182);
     color: white;
 }
 
 .img5 {
-    background: url("../images/viver.png") center;
+    background: url("../images/nyt.png") center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -130,26 +132,27 @@
 }
 
 .img5:hover {
-    background: rgb(65, 196, 65);
+    background: rgb(36, 36, 36);
     color: white;
 }
 
 .img6 {
-    background: url("../images/aps.png") center;
+    background: url("../images/medscape.png") center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    border: 5px solid rgb(33, 78, 163);
 }
 
 .img6:hover {
-    background: rgb(255, 0, 128);
+    background: rgb(33, 78, 163);
     color: white;
 }
 
 .img7 {
-    background: url("../images/cornell.png") center;
-    border: 5px solid rgb(172, 0, 0);
+    background: url("../images/healthday.png") center;
+    border: 5px solid rgb(212, 212, 64);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -157,27 +160,12 @@
 }
 
 .img7:hover {
-    background: rgb(172, 0, 0);
-    color: white;
+    background: rgb(212, 212, 64);
+    color: black;
 }
 
 .img8 {
-    background: url("../images/northwell.png") center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border: 5px solid rgb(161, 104, 161);
-}
-
-.img8:hover {
-    border: none;
-    background: rgb(161, 104, 161);
-    color: white;
-}
-
-.img9 {
-    background: url("../images/dallasnews.png") center;
+    background: url("../images/msnbc.png") center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -185,51 +173,22 @@
     border: 5px solid rgb(36, 36, 36);
 }
 
-.img9:hover {
+.img8:hover {
     background: ghostwhite;
-    color: rgb(36, 36, 36);
+    color: black;
 }
 
-.img10 {
-    background: url("../images/hhmi.png") center no-repeat;
-    border: 5px solid rgb(27, 145, 16);
+.img9 {
+    background: url("../images/everyhealth.png") center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.img10:hover {
-    background: rgb(27, 145, 16);
+.img9:hover {
+    background: rgb(61, 156, 61);
     color: white;
-}
-
-.img11 {
-    background: url("../images/amta.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border: 5px solid rgb(206, 36, 13);
-}
-
-.img11:hover {
-    border: none;
-    background: rgb(206, 36, 13);
-    color: white;
-}
-
-.img12 {
-    background: url("../images/inova.png") center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.img12:hover {
-    background: rgb(35, 48, 124);
-    color: white
 }
 
 @media screen and (max-width: 425px) {
@@ -237,15 +196,23 @@
         background: linear-gradient(
             rgba(0, 0, 0, 0.70),
             rgba(0, 0, 0, 0.70)
-          ), url("../images/mskcc.png") center;
+          ), url("../images/genome.png") center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
         color: white;
     }
 
     .img2 {
         background: linear-gradient(
-            rgba(0, 0, 0, 0.75),
-            rgba(0, 0, 0, 0.75)
-          ), url("../images/judes.png") center;
+            rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)
+          ), url("../images/cnn.png") center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
         color: white;
     }
 
@@ -253,7 +220,11 @@
         background: linear-gradient(
             rgba(0, 0, 0, 0.60),
             rgba(0, 0, 0, 0.60)
-          ), url("../images/hacktest.png") center;
+          ), url("../images/atlantic.png") center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
         color: white;
         border: none;
     }
@@ -262,7 +233,7 @@
         background: linear-gradient(
             rgba(0, 0, 0, 0.75),
             rgba(0, 0, 0, 0.75)
-          ), url("../images/mssociety.png") center;
+          ), url("../images/webmd.png") center;
         color: white;
         border: none;
     }
@@ -271,89 +242,60 @@
         background: linear-gradient(
             rgba(0, 0, 0, 0.60),
             rgba(0, 0, 0, 0.60)
-          ), url("../images/viver.png") center;
+          ), url("../images/nyt.png") center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
         color: white;
     }
 
     .img6 {
         background: linear-gradient(
-            rgba(0, 0, 0, 0.75),
-            rgba(0, 0, 0, 0.75)
-          ), url("../images/aps.png") center;
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+          ), url("../images/medscape.png") center;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
         color: white;
+        border: none;
     }
 
     .img7 {
         background: linear-gradient(
-            rgba(0, 0, 0, 0.75),
-            rgba(0, 0, 0, 0.75)
-          ), url("../images/cornell.png") center;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+            rgba(0, 0, 0, 0.70),
+            rgba(0, 0, 0, 0.70)
+          ), url("../images/healthday.png") center;
         color: white;
         border: none;
     }
 
     .img8 {
         background: linear-gradient(
-            rgba(0, 0, 0, 0.75),
-            rgba(0, 0, 0, 0.75)
-          ), url("../images/northwell.png") center;
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+          ), url("../images/msnbc.png") center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
         color: white;
         border: none;
     }
 
     .img9 {
         background: linear-gradient(
-            rgba(0, 0, 0, 0.75),
-            rgba(0, 0, 0, 0.75)
-          ), url("../images/dallasnews.png") center;
+            rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)
+          ), url("../images/everyhealth.png") center;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
         color: white;
         border: none;
-    }
-
-    .img10 {
-        background: linear-gradient(
-            rgba(0, 0, 0, 0.75),
-            rgba(0, 0, 0, 0.75)
-          ), url("../images/hhmi.png") center;
-        color: white;
-        border: none;
-    }
-
-    .img11 {
-        background: linear-gradient(
-            rgba(0, 0, 0, 0.75),
-            rgba(0, 0, 0, 0.75)
-          ), url("../images/amta.png") center;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-        color: white;
-        border: none;
-    }
-
-    .img12 {
-        background: linear-gradient(
-            rgba(0, 0, 0, 0.65),
-            rgba(0, 0, 0, 0.65)
-          ), url("../images/inova.png") center;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-        color: white;
     }
 
     .page-title {
