@@ -35,6 +35,16 @@
     font-size: 2.1em;
 }
 
+.page-title {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.page-description {
+    font-family: 'Lusitana', serif;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
 .image-holder {
     color: transparent;
     font-size: 1em;
@@ -323,6 +333,14 @@
             rgba(0, 0, 0, 0.75)
           ), url("../images/inova.png") center;
         color: white;
+    }
+
+    .page-title {
+        font-size: 3em;
+    }
+
+    .page-description {
+        font-size: 1em;
     }
 }
 
