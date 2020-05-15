@@ -1,0 +1,24 @@
+{
+  "name": "Maureen-Portfolio",
+  "version": "1.0.0",
+  "description": "A business website for Maureen Salamon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-salamon/Maureen-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin-salamon/Maureen-Portfolio/issues"
+  },
+  "homepage": "https://github.com/kevin-salamon/Maureen-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1"
+  }
+}

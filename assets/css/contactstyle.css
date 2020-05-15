@@ -39,21 +39,32 @@
     color: white;
 }
 
+.wrapper {
+    margin: 3%;
+}
+
+.top-container {
+    width: 80%;
+    margin: 0% 10%;
+    height: 200px;
+    border: 1px solid rgb(201, 201, 201);
+    border-bottom: none;
+}
+
 .my-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 80%;
-    margin: 1% 10%;
+    margin: 0% 10%;
     border: 1px solid rgb(201, 201, 201);
+    border-top: none;
     padding: 1.5%;
-    border-radius: 5px;
 }
 
 label {
     font-family: 'Libre Baskerville', serif;
     font-size: 1em;
-    /* font-family: 'Lusitana', serif; */
 }
 
 .form-group {
