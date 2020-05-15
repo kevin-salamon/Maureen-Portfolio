@@ -4,11 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/contactstyle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lusitana&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel='icon' href='assets/images/favicon.ico' type='image/x-icon'/>
     <title>Maureen Salamon</title>
 </head>
@@ -22,5 +19,24 @@
         <a class="nav-item navtab" href="contentmarketing.html">Content Marketing</a>
         <a class="nav-item navtab" href="contact.html">Contact</a>
     </nav>
+
+    <form class="my-form">
+        <div class="form-group">
+            <label for="inputName">Name:</label>
+            <input type="text" class="form-control" id="inputName">
+          </div>
+        <div class="form-group">
+          <label for="inputEmail">Email address:</label>
+          <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted" style="font-size: 0.8em">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="inputMessage">Message:</label>
+            <textarea type="text" class="form-control" id="inputMessage" rows="4">
+
+            </textarea>
+          </div>
+        <button type="submit" class="btn btn-primary" style="width: 200px; margin: auto">Send</button>
+    </form>
 </body>
 </html>
