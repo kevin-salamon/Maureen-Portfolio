@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lusitana&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel='icon' href='assets/images/favicon.ico' type='image/x-icon'/>
     <title>Maureen Salamon</title>
 </head>
@@ -20,39 +21,28 @@
         <a class="nav-item navtab" href="contact.html">Contact</a>
     </nav>
 
-    <!-- <div class="container top-container">
-        <div class="row" style="border: 1px solid black">
-            <div class="col-md-3" style="display: flex; align-items: center; justify-content: center; padding: 1%; text-align: center">
-                <h1 style="font-family: 'Libre Baskerville', serif; border: 1px solid black">Contact Me</h1>
-            </div>
-            <div class="col-md-9" style="display: flex; align-items: center; justify-content: center; padding: 1%;">
-                <p style="font-family: 'Lusitana', serif; text-align: center; border: 1px solid black">Interested in working with me? Shoot me a message with your name and email address below, and I'll get back to you as soon as possible.</p>
-            </div>
-        </div>
-    </div> -->
     <div class="wrapper">
         <div class="top-container">
             
         </div>
 
-        <form class="my-form">
+        <form class="my-form" action="/send" method="POST">
             <div class="form-group">
                 <label for="inputName">Name:</label>
-                <input type="text" class="form-control" id="inputName">
+                <input type="text" class="form-control" id="inputName" value="test">
             </div>
             <div class="form-group">
-            <label for="inputEmail">Email address:</label>
-            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted" style="font-size: 0.8em">We'll never share your email with anyone else.</small>
+                <label for="inputEmail">E-mail Address:</label>
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted" style="font-size: 0.8em">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
                 <label for="inputMessage">Message:</label>
-                <textarea type="text" class="form-control" id="inputMessage" rows="4">
-
-                </textarea>
+                <textarea type="text" class="form-control" id="inputMessage" rows="4"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary" style="width: 200px; margin: auto">Send</button>
+            <button type="submit" class="btn btn-primary" style="width: 200px; margin: auto; font-family: 'Libre Baskerville', serif;" id="send-button">Send</button>
         </form>
     </div>
+    <script src="server.js"></script>
 </body>
 </html>
