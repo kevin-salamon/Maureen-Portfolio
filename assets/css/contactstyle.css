@@ -40,15 +40,36 @@
 }
 
 .wrapper {
-    margin: 3%;
+    margin: 3.5%;
 }
 
 .top-container {
     width: 80%;
     margin: 0% 10%;
     height: 200px;
-    border: 1px solid rgb(201, 201, 201);
+    border: 3px solid #E1D9CF;
     border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 10% 3% 10%;
+    text-align: center;
+    flex-direction: column;
+    color: black;
+    background-color: #F0ECE2;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.top-container h1 {
+    font-family: 'Lusitana', serif;
+    border-bottom: 1px solid black;
+    font-weight: 800;
+    font-size: 2.5em;
+}
+
+.top-container h3 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 1.6em;
 }
 
 .my-form {
@@ -57,14 +78,20 @@
     justify-content: center;
     width: 80%;
     margin: 0% 10%;
-    border: 1px solid rgb(201, 201, 201);
+    border: 3px solid #E1D9CF;
     border-top: none;
     padding: 1.5%;
+    border-radius: 0px 0px 5px 5px;
 }
 
 label {
     font-family: 'Libre Baskerville', serif;
     font-size: 1em;
+    font-weight: 550;
+}
+
+input {
+    border: 1px solid #E1D9CF;
 }
 
 .form-group {
