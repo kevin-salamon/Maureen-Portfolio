@@ -1,33 +1,31 @@
-const nodemailer = require("nodemailer");
+const express = require('express');
+const app = express();
+const path = require('path');
+const router = express.Router();
 
-console.log($("#inputName").val());
-
-async function main() {
-
-let transporter = nodemailer.createTransport({
-    host: "localhost",
-    port: 3000,
-    secure: false, // true for 465, false for other ports
-    auth: {
-    user: testAccount.user, // generated ethereal user
-    pass: testAccount.pass, // generated ethereal password
-    },
+router.get('/',function(req,res){
+  res.sendFile(path.join(__dirname+'/public/index.html'));
 });
 
-// send mail with defined transport object
-let info = await transporter.sendMail({
-    from: `"${$("#inputName").val()}" <${$("#inputEmail").val()}>`, // sender address
-    to: "theksalamon@gmail.com",
-    subject: "Form Submission from Personal Website", // Subject line
-    text: "Test", // plain text body
-    html: "<b>Test</b>", // html body
+router.get('/about',function(req,res){
+  res.sendFile(path.join(__dirname+'/public/about.html'));
 });
 
-console.log("Message sent: %s", info.messageId);
+router.get('/journalism',function(req,res){
+  res.sendFile(path.join(__dirname+'/public/journalism.html'));
+});
 
-}
+router.get('/contentmarketing',function(req,res){
+    res.sendFile(path.join(__dirname+'/public/contentmarketing.html'));
+});
+  
+router.get('/contact',function(req,res){
+    res.sendFile(path.join(__dirname+'/public/contact.html'));
+});
 
-$("#send-button").on("click", function(event) {
-    event.preventDefault();
-    main().catch(console.error);
-})
+app.use(express.static(__dirname + '/public'));
+app.use('/', router);
+
+app.listen(process.env.port || 3000);
+
+console.log('Running at Port 3000');
