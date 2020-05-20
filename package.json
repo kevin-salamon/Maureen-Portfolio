@@ -4,6 +4,7 @@
   "description": "A business website for Maureen Salamon",
   "main": "server.js",
   "scripts": {
+    "start": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/kevin-salamon/Maureen-Portfolio#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "nodemailer": "^6.4.6"
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "10.16.3"
   }
 }
